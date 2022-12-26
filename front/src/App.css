@@ -5,6 +5,10 @@
 }
 
 header {
-  background: url(./assets/img/bg.jpg) center/cover;
-  height: 100vh;
+  background: url(./assets/img/bg.jpg) top left;
+  height: 120vh;
+}
+header img {
+  width: 180px;
+  margin-left: 40px;
 }
