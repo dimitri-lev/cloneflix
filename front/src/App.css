@@ -12,3 +12,14 @@ header img {
   width: 180px;
   margin-left: 40px;
 }
+.login {
+  background: black;
+  color: whitesmoke;
+  width: 400px;
+  height: 700px;
+  margin: auto;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+}
