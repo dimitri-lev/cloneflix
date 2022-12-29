@@ -12,3 +12,11 @@ header img {
   width: 180px;
   margin-left: 40px;
 }
+.login-container {
+  background: rgba(0, 0, 0, 0.755);
+  color: white;
+}
+footer {
+  color: white;
+  background: black;
+}
