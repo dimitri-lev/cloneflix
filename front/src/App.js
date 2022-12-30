@@ -3,7 +3,7 @@ import logo from './assets/img/logo.png';
 
 function App() {
   return (
-    <div>
+    <div className="background">
       <header>
         <div className="logo">
           <img src={logo} alt="logo netflix" />

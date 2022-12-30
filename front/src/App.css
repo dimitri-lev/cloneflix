@@ -4,19 +4,26 @@
   box-sizing: border-box;
 }
 
-header {
+.background {
+  height: 100%;
   background: url(./assets/img/bg.jpg) top left;
-  height: 120vh;
+  filter: brightness(50%);
 }
-header img {
+header {
+  height: 100vh;
+}
+.logo img {
   width: 180px;
   margin-left: 40px;
 }
 .login-container {
   background: rgba(0, 0, 0, 0.755);
   color: white;
+  width: 40%;
+  height: 80%;
+  margin: 0 auto;
 }
 footer {
   color: white;
-  background: black;
+  background: rgba(0, 0, 0, 0.755);
 }
