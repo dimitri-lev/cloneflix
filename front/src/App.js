@@ -9,25 +9,33 @@ function App() {
           <img src={logo} alt="logo netflix" />
         </div>
         <div className="login-container">
-          <div className="login">
-            <h1>S'identifier</h1>
-            <form action="#">
-              <input type="text" placeholder="E-mail ou numéro de téléphone" />
-              <input type="text" placeholder="Mot de passe" />
-              <input type="submit" value="S'identifier" />
-              <input type="checkbox" id="checkbox" />
-              <label htmlFor="checkbox">Se souvenir de moi</label>
-              <a href="test">Besoin d'aide ?</a>
-            </form>
-          </div>
-          <div className="sign">
-            <h2>
-              Première visite sur Netflix ? <a href="test">Inscrivez-vous</a>
-            </h2>
-            <p>
-              Cette page est protégée par Google reCAPTCHA pour nous assurer que
-              vous n'êtes pas un robot. <a href="test">En savoir plus.</a>
-            </p>
+          <div className="login-content">
+            <div className="login">
+              <h1>S'identifier</h1>
+              <form action="#">
+                <input
+                  type="text"
+                  placeholder="E-mail ou numéro de téléphone"
+                />
+                <input type="text" placeholder="Mot de passe" />
+                <input type="submit" value="S'identifier" />
+                <div>
+                  <input type="checkbox" id="checkbox" />
+                  <label htmlFor="checkbox">Se souvenir de moi</label>
+                  <a href="test">Besoin d'aide ?</a>
+                </div>
+              </form>
+            </div>
+
+            <div className="sign">
+              <h2>
+                Première visite sur Netflix ? <a href="test">Inscrivez-vous</a>
+              </h2>
+              <p>
+                Cette page est protégée par Google reCAPTCHA pour nous assurer
+                que vous n'êtes pas un robot. <a href="test">En savoir plus.</a>
+              </p>
+            </div>
           </div>
         </div>
       </header>
