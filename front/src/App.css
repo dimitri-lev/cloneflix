@@ -30,7 +30,7 @@ header {
 .login-container {
   background: rgba(0, 0, 0, 0.755);
   color: white;
-  width: 37%;
+  width: 28%;
   height: 80%;
   margin: 0 auto;
 }
@@ -50,7 +50,7 @@ h1 {
   margin-bottom: 20px;
 }
 input[type='text'] {
-  background: rgb(51, 46, 41);
+  background: #333333;
   color: white;
   border: none;
   outline: none;
