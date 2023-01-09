@@ -49,6 +49,7 @@ form {
 }
 h1 {
   margin-bottom: 20px;
+  font-weight: 500;
 }
 input[type='text'] {
   background: #333333;
@@ -56,13 +57,14 @@ input[type='text'] {
   border: none;
   outline: none;
   padding: 20px;
-  height: 40px;
+  height: 50px;
   font-size: 1rem;
   border-radius: 5px;
   width: 100%;
+  margin-bottom: 10px;
 }
-input[type='submit'] {
-  margin-top: 30px;
+.submit input[type='submit'] {
+  margin-top: 20px;
   background: rgb(219, 7, 16);
   color: white;
   border: none;
@@ -70,6 +72,13 @@ input[type='submit'] {
   font-weight: 700;
   font-size: 1rem;
   border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.submit div {
+  display: flex;
+  justify-content: space-between;
 }
 .sign {
   margin-top: 40px;

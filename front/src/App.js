@@ -19,11 +19,13 @@ function App() {
                     placeholder="E-mail ou numéro de téléphone"
                   />
                   <input type="text" placeholder="Mot de passe" />
-                  <input type="submit" value="S'identifier" />
-                  <div>
-                    <input type="checkbox" id="checkbox" />
-                    <label htmlFor="checkbox">Se souvenir de moi</label>
-                    <a href="test">Besoin d'aide ?</a>
+                  <div className="submit">
+                    <input type="submit" value="S'identifier" />
+                    <div>
+                      <input type="checkbox" id="checkbox" />
+                      <label htmlFor="checkbox">Se souvenir de moi</label>
+                      <a href="test">Besoin d'aide ?</a>
+                    </div>
                   </div>
                 </form>
               </div>
