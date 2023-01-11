@@ -33,10 +33,10 @@ header {
   width: 28%;
   height: 80%;
   margin: 0 auto;
-  min-width: 390px;
+  min-width: 400px;
 }
 .login-content {
-  padding: 60px 60px;
+  padding: 50px 50px;
 }
 .login {
   display: flex;
@@ -87,6 +87,10 @@ input[type='text'] {
 }
 .sign {
   margin-top: 40px;
+}
+.sign h2 {
+  font-size: 1rem;
+  font-weight: 400;
 }
 footer {
   color: white;

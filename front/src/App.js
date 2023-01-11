@@ -35,6 +35,7 @@ function App() {
                   Première visite sur Netflix ?{' '}
                   <a href="test">Inscrivez-vous</a>
                 </h2>
+
                 <p>
                   Cette page est protégée par Google reCAPTCHA pour nous assurer
                   que vous n'êtes pas un robot.{' '}
