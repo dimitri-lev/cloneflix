@@ -38,7 +38,7 @@ function App() {
 
                 <p>
                   Cette page est protégée par Google reCAPTCHA pour nous assurer
-                  que vous n'êtes pas un robot.{' '}
+                  que vous n'êtes pas un robot. <br></br>
                   <a href="test">En savoir plus.</a>
                 </p>
               </div>
