@@ -81,6 +81,7 @@ input[type='text'] {
   background: grey;
   accent-color: grey;
   color: black;
+  margin-right: 5px;
 }
 .submit div {
   display: flex;
@@ -104,6 +105,12 @@ footer {
   color: white;
   background: rgba(0, 0, 0, 0.755);
   min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
 footer ul {
   display: grid;

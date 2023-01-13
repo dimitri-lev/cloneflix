@@ -22,8 +22,11 @@ function App() {
                   <div className="submit">
                     <input type="submit" value="S'identifier" />
                     <div>
-                      <input type="checkbox" id="checkbox" />
-                      <label htmlFor="checkbox">Se souvenir de moi</label>
+                      <div>
+                        <input type="checkbox" id="checkbox" />
+                        <label htmlFor="checkbox">Se souvenir de moi</label>
+                      </div>
+
                       <a href="test">Besoin d'aide ?</a>
                     </div>
                   </div>
@@ -46,30 +49,32 @@ function App() {
           </div>
         </header>
         <footer>
-          <h3>
-            Des questions ? appelez le <a href="test">(+33) 085-543-063</a>
-          </h3>
-          <ul>
-            <li>
-              <a href="test">FAQ</a>
-            </li>
-            <li>
-              <a href="test">Centre d'aide</a>
-            </li>
-            <li>
-              <a href="test">Conditions d'utilisation</a>
-            </li>
-            <li>
-              <a href="test">Confidentialité</a>
-            </li>
-            <li>
-              <a href="test">Préférences de cookies</a>
-            </li>
-            <li>
-              <a href="test">Mentions légales</a>
-            </li>
-          </ul>
-          <button>Français</button>
+          <div className="footer-container">
+            <h3>
+              Des questions ? appelez le <a href="test">(+33) 085-543-063</a>
+            </h3>
+            <ul>
+              <li>
+                <a href="test">FAQ</a>
+              </li>
+              <li>
+                <a href="test">Centre d'aide</a>
+              </li>
+              <li>
+                <a href="test">Conditions d'utilisation</a>
+              </li>
+              <li>
+                <a href="test">Confidentialité</a>
+              </li>
+              <li>
+                <a href="test">Préférences de cookies</a>
+              </li>
+              <li>
+                <a href="test">Mentions légales</a>
+              </li>
+            </ul>
+            <button>Français</button>
+          </div>
         </footer>
       </div>
     </div>
