@@ -104,13 +104,15 @@ input[type='text'] {
 footer {
   color: white;
   background: rgba(0, 0, 0, 0.755);
-  min-height: 250px;
-  display: flex;
-  align-items: center;
+  height: 250px;
 }
 .footer-container {
-  max-width: 1400px;
+  width: 1000px;
   margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 footer ul {
   display: grid;
