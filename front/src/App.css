@@ -31,13 +31,13 @@ header {
 .login-container {
   background: rgba(0, 0, 0, 0.755);
   color: white;
-  width: 28%;
+  width: 23%;
   height: 85%;
   margin: 0 auto;
   min-width: 400px;
 }
 .login-content {
-  padding: 50px 50px;
+  padding: 60px 60px;
 }
 .login {
   display: flex;
