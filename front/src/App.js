@@ -23,7 +23,7 @@ function App() {
                     <input type="submit" value="S'identifier" />
                     <div>
                       <div>
-                        <input type="checkbox" id="checkbox" />
+                        <input type="checkbox" id="checkbox" checked />
                         <label htmlFor="checkbox">Se souvenir de moi</label>
                       </div>
 
