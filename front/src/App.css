@@ -100,6 +100,9 @@ input[type='text'] {
   color: grey;
   font-size: 0.85rem;
 }
+.sign a:nth-child(1) .sign a:nth-child(2) {
+  color: #006add;
+}
 
 footer {
   color: #686868;
