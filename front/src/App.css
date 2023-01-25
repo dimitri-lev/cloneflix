@@ -90,12 +90,17 @@ input[type='text'] {
 .sign {
   margin-top: 40px;
 }
+
 .sign h2 {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 15px;
   color: grey;
 }
+.sign-link {
+  color: white;
+}
+
 .sign p {
   color: grey;
   font-size: 0.85rem;

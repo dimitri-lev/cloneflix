@@ -36,7 +36,9 @@ function App() {
               <div className="sign">
                 <h2>
                   Première visite sur Netflix ?{' '}
-                  <a href="test">Inscrivez-vous</a>
+                  <a href="test" className="sign-link">
+                    Inscrivez-vous
+                  </a>
                 </h2>
 
                 <p>
