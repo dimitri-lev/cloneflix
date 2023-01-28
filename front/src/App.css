@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   list-style-type: none;
 }
 a {
@@ -52,7 +52,7 @@ h1 {
   margin-bottom: 20px;
   font-weight: 600;
 }
-input[type='text'] {
+input[type="text"] {
   background: #333333;
   color: white;
   border: none;
@@ -64,7 +64,7 @@ input[type='text'] {
   width: 100%;
   margin-bottom: 10px;
 }
-.submit input[type='submit'] {
+.submit input[type="submit"] {
   margin-top: 20px;
   background: rgb(219, 7, 16);
   color: white;
@@ -102,7 +102,7 @@ input[type='text'] {
 }
 
 .sign p {
-  color: grey;
+  color: #686868;
   font-size: 0.85rem;
 }
 
