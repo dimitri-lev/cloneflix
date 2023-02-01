@@ -78,8 +78,8 @@ input[type="text"] {
   margin-bottom: 10px;
 }
 .submit div #checkbox {
-  background: grey;
-  accent-color: grey;
+  background: #686868;
+  accent-color: #686868;
   color: black;
   margin-right: 5px;
 }
