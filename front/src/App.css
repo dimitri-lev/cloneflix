@@ -30,7 +30,7 @@ header {
 }
 .login-container {
   background: rgba(0, 0, 0, 0.755);
-  color: white;
+  color: rgb(244, 244, 244);
   width: 30%;
   height: 85%;
   margin: 0 auto;
@@ -54,7 +54,7 @@ h1 {
 }
 input[type="text"] {
   background: #333333;
-  color: white;
+  color: rgb(244, 244, 244);
   border: none;
   outline: none;
   padding: 20px;
@@ -67,7 +67,7 @@ input[type="text"] {
 .submit input[type="submit"] {
   margin-top: 20px;
   background: rgb(219, 7, 16);
-  color: white;
+  color: rgb(244, 244, 244);
   border: none;
   outline: none;
   font-weight: 700;
@@ -98,7 +98,7 @@ input[type="text"] {
   color: #686868;
 }
 .sign-link {
-  color: white;
+  color: rgb(244, 244, 244);
 }
 
 .sign p {
