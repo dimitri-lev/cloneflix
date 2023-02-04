@@ -123,6 +123,12 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
+.footer-container button {
+  width: 100px;
+  padding: 10px 20px;
+  background: transparent;
+  color: white;
+}
 footer ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
