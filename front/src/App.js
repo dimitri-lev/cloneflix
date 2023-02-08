@@ -1,5 +1,5 @@
-import './app.css';
-import logo from './assets/img/logo.png';
+import "./app.css";
+import logo from "./assets/img/logo.png";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
 
               <div className="sign">
                 <h2>
-                  Première visite sur Netflix ?{' '}
+                  Première visite sur Netflix ?{" "}
                   <a href="test" className="sign-link">
                     Inscrivez-vous
                   </a>

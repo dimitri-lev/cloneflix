@@ -126,8 +126,9 @@ footer {
 .footer-container button {
   width: 100px;
   padding: 10px 20px;
-  background: transparent;
-  color: white;
+  background: black;
+  color: #686868;
+  border: 0.5px solid #686868;
 }
 footer ul {
   display: grid;
