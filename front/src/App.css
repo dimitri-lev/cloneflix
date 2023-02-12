@@ -126,7 +126,7 @@ footer {
 .footer-container button {
   width: 100px;
   padding: 10px 20px;
-  background: black;
+  background: rgb(10, 10, 10);
   color: #686868;
   border: 0.5px solid #686868;
 }
