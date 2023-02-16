@@ -65,6 +65,9 @@ function App() {
                 <a href="test">Centre d'aide</a>
               </li>
               <li>
+                <a href="test">Boutique Netflix</a>
+              </li>
+              <li>
                 <a href="test">Conditions d'utilisation</a>
               </li>
               <li>
