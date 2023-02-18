@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   list-style-type: none;
 }
 a {
@@ -29,7 +29,7 @@ header {
   margin-left: 40px;
 }
 .login-container {
-  background: rgba(0, 0, 0, 0.755);
+  background: rgba(0, 0, 0, 0.75);
   color: rgb(244, 244, 244);
   width: 30%;
   height: 85%;
@@ -52,7 +52,7 @@ h1 {
   margin-bottom: 20px;
   font-weight: 600;
 }
-input[type="text"] {
+input[type='text'] {
   background: #333333;
   color: rgb(244, 244, 244);
   border: none;
@@ -64,7 +64,7 @@ input[type="text"] {
   width: 100%;
   margin-bottom: 10px;
 }
-.submit input[type="submit"] {
+.submit input[type='submit'] {
   margin-top: 20px;
   background: rgb(219, 7, 16);
   color: rgb(244, 244, 244);
